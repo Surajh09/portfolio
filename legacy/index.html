@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suraj Hemnani — Backend / Platform Engineer</title>
+  <meta name="description" content="Suraj Hemnani builds and operates backend systems, accounting integrations, asynchronous processing pipelines and AWS infrastructure for a SaaS platform used by UK accounting workflows.">
+  <meta name="author" content="Suraj Hemnani">
+  <meta name="theme-color" content="#f5f0e7">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Suraj Hemnani — Backend / Platform Engineer">
+  <meta property="og:description" content="Building and operating backend systems, integrations, asynchronous processing pipelines, and cloud infrastructure.">
+  <meta property="og:site_name" content="Suraj Hemnani">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Suraj Hemnani — Backend / Platform Engineer">
+  <meta name="twitter:description" content="Building and operating backend systems, integrations, asynchronous processing pipelines, and cloud infrastructure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Suraj Hemnani",
+    "jobTitle": "Backend / Platform Engineer",
+    "email": "mailto:surajhemnani04@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Nagpur", "addressRegion": "Maharashtra", "addressCountry": "IN" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <canvas id="dots" aria-hidden="true"></canvas>
+  <div class="hero-light" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-name" href="#top">Suraj Hemnani</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+        <a href="#experience">Experience</a>
+        <a href="#systems">Systems</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="hero-role">Backend / Platform Engineer</p>
+        <h1 class="hero-name">Suraj Hemnani</h1>
+        <p class="hero-statement">Building and operating backend systems, integrations, asynchronous processing pipelines, and cloud infrastructure.</p>
+        <p class="hero-support">Backend / Platform Engineer with 2+ years of experience building and operating SaaS systems for UK accounting workflows.</p>
+
+        <ul class="meta-row" aria-label="Focus areas">
+          <li>Python</li>
+          <li>AWS</li>
+          <li>Distributed Processing</li>
+          <li>Integrations</li>
+        </ul>
+
+        <ul class="hero-links" aria-label="Links">
+          <li><a data-link="github" href="#" rel="me noopener">GitHub</a></li>
+          <li><a data-link="linkedin" href="#" rel="me noopener">LinkedIn</a></li>
+          <li><a data-link="email" href="#">Email</a></li>
+          <li><a data-link="resume" href="resume.pdf" download="Suraj_Hemnani_Resume.pdf">Resume</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CURRENTLY ============ -->
+    <section class="section section-compact" id="currently">
+      <div class="container section-grid">
+        <h2 class="section-label">Currently</h2>
+        <div class="section-body">
+          <p class="lead">Building and operating backend systems for a SaaS platform used by UK accounting workflows.</p>
+          <ul class="tag-list" aria-label="Current areas">
+            <li>Python Backend</li>
+            <li>Accounting Integrations</li>
+            <li>Async Processing</li>
+            <li>AWS Infrastructure</li>
+            <li>CI/CD</li>
+            <li>Production Reliability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container section-grid">
+        <h2 class="section-label">Experience</h2>
+        <div class="section-body">
+
+          <header class="role-header">
+            <div>
+              <h3 class="role-company">EazyCapture</h3>
+              <p class="role-title">Associate Software Developer</p>
+            </div>
+            <p class="role-dates">May 2025 – Present</p>
+          </header>
+
+          <div class="case-list">
+
+            <article class="case">
+              <div class="case-side">
+                <h4>Accounting integrations</h4>
+                <p class="case-tech">Xero · QuickBooks Online · FreeAgent · Sage · Nango</p>
+              </div>
+              <div class="case-main">
+                <p>Own the integrations with Xero, QuickBooks Online, FreeAgent and Sage, built on a provider-agnostic layer using Nango. The layer covers synchronization of provider data, transformation into the platform's model, storage, tax handling and publishing back to the provider.</p>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>Asynchronous bulk publishing</h4>
+                <p class="case-tech">Grouping · checkpoints · rate limiting · retries</p>
+              </div>
+              <div class="case-main">
+                <p>Designed and implemented asynchronous bulk publishing of client documents to accounting providers.</p>
+                <p class="figure"><span class="figure-value">50</span><span class="figure-unit">documents / minute</span></p>
+                <p>The pipeline groups documents, checkpoints progress, applies provider-specific rate limits, retries failures, runs multi-step workflows, tracks each publish and streams realtime progress updates to the user.</p>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>Performance</h4>
+                <p class="case-tech">Profiling · C7 instances · workers · Redis · database</p>
+              </div>
+              <div class="case-main">
+                <p class="figure figure-delta" aria-label="API response time reduced from roughly 10 to 15 seconds to under 1 second">
+                  <span class="figure-before">~10–15 s</span>
+                  <span class="figure-arrow" aria-hidden="true">→</span>
+                  <span class="figure-after">&lt;1 s</span>
+                  <span class="figure-unit">API response time</span>
+                </p>
+                <p>Reached sub-second API performance by profiling and identifying compute and infrastructure bottlenecks, then migrating to C7 instances, scaling up the workers and redesigning the Redis and database deployment.</p>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>AWS infrastructure</h4>
+                <p class="case-tech">VPC · Beanstalk / EC2 · Aurora · SQS · Lambda · S3</p>
+              </div>
+              <div class="case-main">
+                <p>Designed and implemented the AWS stack for client-facing production environments.</p>
+
+                <figure class="sysmap" aria-label="AWS infrastructure system map">
+                  <div class="sysmap-row sysmap-edge">
+                    <span class="sysmap-node">CloudFront</span>
+                    <span class="sysmap-node">WAF</span>
+                  </div>
+                  <div class="sysmap-vpc">
+                    <span class="sysmap-vpc-label">VPC</span>
+                    <div class="sysmap-row">
+                      <span class="sysmap-node sysmap-primary">Elastic Beanstalk / EC2</span>
+                    </div>
+                    <div class="sysmap-row">
+                      <span class="sysmap-node">RDS Proxy</span>
+                      <span class="sysmap-node">Aurora</span>
+                      <span class="sysmap-node">ElastiCache</span>
+                    </div>
+                    <div class="sysmap-row">
+                      <span class="sysmap-node">SQS</span>
+                      <span class="sysmap-node">Lambda</span>
+                    </div>
+                  </div>
+                  <div class="sysmap-row sysmap-foundation">
+                    <span class="sysmap-node">S3</span>
+                    <span class="sysmap-node">IAM</span>
+                    <span class="sysmap-node">CloudWatch</span>
+                  </div>
+                  <figcaption>Services used in the production stack. Grouping shows role, not the exact network topology.</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>CI/CD and operations</h4>
+                <p class="case-tech">GitHub Actions · Docker · Secrets Manager</p>
+              </div>
+              <div class="case-main">
+                <p>Own the GitHub Actions pipeline from QA to UAT deployments, the Docker builds, AWS Secrets Manager configuration and release rollbacks.</p>
+                <p class="figure figure-delta" aria-label="Container image reduced from 900 megabytes to 600 megabytes">
+                  <span class="figure-before">900 MB</span>
+                  <span class="figure-arrow" aria-hidden="true">→</span>
+                  <span class="figure-after">600 MB</span>
+                  <span class="figure-unit">container image size</span>
+                </p>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>Domain engineering</h4>
+                <p class="case-tech">Query domain · DDD</p>
+              </div>
+              <div class="case-main">
+                <p>Designed the Query domain model for accountant-to-client queries mapped to bookkeeping documents, and built its backend implementation.</p>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>Incident handling</h4>
+                <p class="case-tech">Integrations · publishing · infrastructure</p>
+              </div>
+              <div class="case-main">
+                <p>Responsible for production incidents on customers' live accounting data. Resolved the majority of escalations myself across the integration, publishing and infrastructure layers.</p>
+              </div>
+            </article>
+
+            <article class="case">
+              <div class="case-side">
+                <h4>Django → FastAPI</h4>
+                <p class="case-tech">Solution design · architecture review · DigitalOcean / IaC</p>
+              </div>
+              <div class="case-main">
+                <p>Lead the design of solutions and features for the ongoing Django to FastAPI transition, reviewing implementations for architectural soundness.</p>
+                <p class="case-note">Currently taking over ownership of the DigitalOcean / IaC platform.</p>
+              </div>
+            </article>
+
+          </div>
+
+          <header class="role-header role-header-secondary">
+            <div>
+              <h3 class="role-company">Software Developer Intern</h3>
+              <p class="role-title">Django backend, React frontend, Linode and Azure Repos operations for an accounting-oriented application</p>
+            </div>
+            <p class="role-dates">Mar 2024 – Apr 2025</p>
+          </header>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AT A GLANCE ============ -->
+    <section class="section section-compact" id="glance" aria-labelledby="glance-heading">
+      <div class="container section-grid">
+        <h2 class="section-label" id="glance-heading">At a glance</h2>
+        <div class="section-body">
+          <dl class="glance glass">
+            <div class="glance-item">
+              <dd>50</dd>
+              <dt>documents / minute</dt>
+            </div>
+            <div class="glance-item">
+              <dd><span class="muted">~10–15 s</span> → &lt;1 s</dd>
+              <dt>API performance</dt>
+            </div>
+            <div class="glance-item">
+              <dd><span class="muted">900 MB</span> → 600 MB</dd>
+              <dt>container image</dt>
+            </div>
+            <div class="glance-item">
+              <dd>4</dd>
+              <dt>accounting integrations</dt>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SYSTEMS ============ -->
+    <section class="section" id="systems">
+      <div class="container section-grid">
+        <h2 class="section-label">Systems I've worked on</h2>
+        <div class="section-body">
+          <div class="systems">
+            <article class="system glass">
+              <h3>Accounting integrations</h3>
+              <p class="system-tech">Xero · QuickBooks Online · FreeAgent · Sage</p>
+              <p>Provider-agnostic integration layer covering synchronization, transformation, storage, tax handling and publishing.</p>
+            </article>
+            <article class="system">
+              <h3>Async document processing</h3>
+              <p class="system-tech">Background workflows · grouping · checkpoints · retries · rate limiting · realtime progress</p>
+              <p>Long-running publish pipelines that survive provider limits and partial failure, and report progress while they run.</p>
+            </article>
+            <article class="system">
+              <h3>Cloud infrastructure</h3>
+              <p class="system-tech">AWS · EC2 · Elastic Beanstalk · Aurora · Redis · SQS · Lambda · S3 · CloudFront/WAF</p>
+              <p>Production environments designed, deployed and operated end to end, including deployments, secrets and rollbacks.</p>
+            </article>
+            <article class="system">
+              <h3>Backend architecture</h3>
+              <p class="system-tech">Python · Django · FastAPI · REST APIs · PostgreSQL · DDD</p>
+              <p>Domain models and service code for accounting workflows, across a framework transition.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container section-grid">
+        <h2 class="section-label">Projects</h2>
+        <div class="section-body">
+
+          <article class="project project-featured glass">
+            <div class="project-featured-text">
+              <p class="project-kind">Featured</p>
+              <h3>Forge</h3>
+              <p class="project-desc">Centralized context bank for organizations, enabling feature-based context ownership and controlled context access across teams and agents.</p>
+              <p>Forge explores how organizational context can be centralized, structured and owned by feature, instead of being fragmented across teams, tools and individual conversations. Ownership follows feature boundaries; access is controlled rather than assumed.</p>
+              <p class="project-tech">Designed the underlying data model, lifecycle, authorization model and agent interface.</p>
+              <ul class="project-terms" aria-label="Key concepts">
+                <li>Context</li>
+                <li>Ownership</li>
+                <li>Feature boundaries</li>
+                <li>Access</li>
+                <li>Organizational knowledge</li>
+              </ul>
+            </div>
+            <figure class="forge-diagram" aria-label="Forge concept: features own context; teams and agents access it through controlled boundaries">
+              <div class="forge-col">
+                <span class="forge-col-label">Features</span>
+                <span class="forge-box">Feature A</span>
+                <span class="forge-box">Feature B</span>
+                <span class="forge-box">Feature C</span>
+              </div>
+              <div class="forge-link" aria-hidden="true"><span>owns</span></div>
+              <div class="forge-col forge-core">
+                <span class="forge-col-label">Context bank</span>
+                <span class="forge-box forge-box-core">Structured context</span>
+                <span class="forge-sub">lifecycle · authorization</span>
+              </div>
+              <div class="forge-link" aria-hidden="true"><span>access</span></div>
+              <div class="forge-col">
+                <span class="forge-col-label">Consumers</span>
+                <span class="forge-box">Teams</span>
+                <span class="forge-box">Agents</span>
+              </div>
+            </figure>
+          </article>
+
+          <article class="project project-secondary">
+            <div class="project-secondary-head">
+              <h3>Nexus</h3>
+              <p class="project-kind">Experimental</p>
+            </div>
+            <div class="project-secondary-body">
+              <p class="project-desc">An experimental operational middleware system focused on worker orchestration, heartbeat and health tracking, operational context, and deployment correlation.</p>
+              <p>Started from a recurring problem in startup environments: debugging and RCA are fragmented across QA reproduction, application logs, deployment timing and infrastructure signals. Nexus brings those signals into one operational context.</p>
+              <p class="project-tech">AI-assisted RCA is an eventual direction, not a completed feature.</p>
+            </div>
+          </article>
+
+          <article class="project project-compact">
+            <h3>Personal Infrastructure Lab</h3>
+            <p>Self-hosted infrastructure on Raspberry Pi and RHEL with automated deployments/backups, networking, firewalling, SSL, access controls, Suricata IDS and eBPF monitoring.</p>
+            <p class="project-tech">Raspberry Pi · RHEL · Suricata · eBPF</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container section-grid">
+        <h2 class="section-label">Technical skills</h2>
+        <div class="section-body">
+          <dl class="skills">
+            <div class="skill-row">
+              <dt>Languages</dt>
+              <dd>Python · SQL · JavaScript</dd>
+            </div>
+            <div class="skill-row">
+              <dt>Backend</dt>
+              <dd>Django · FastAPI · REST APIs · Celery · Async Processing · DDD · Distributed Processing</dd>
+            </div>
+            <div class="skill-row">
+              <dt>Data</dt>
+              <dd>PostgreSQL · Aurora · MySQL · Redis</dd>
+            </div>
+            <div class="skill-row">
+              <dt>Cloud &amp; DevOps</dt>
+              <dd>AWS · EC2 · Elastic Beanstalk · VPC · Aurora · RDS Proxy · ElastiCache · Lambda · SQS · S3 · CloudFront · WAF · IAM · Secrets Manager · CloudWatch · Docker · GitHub Actions · CI/CD · Nginx · DigitalOcean</dd>
+            </div>
+            <div class="skill-row">
+              <dt>Integrations</dt>
+              <dd>Xero · QuickBooks Online · FreeAgent · Sage · Nango · OAuth · Webhooks · Rate-limit-aware workflows</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION + SPEAKING ============ -->
+    <section class="section section-compact" id="education">
+      <div class="container section-grid">
+        <h2 class="section-label">Education</h2>
+        <div class="section-body">
+          <div class="edu">
+            <div>
+              <h3>B.Tech Computer Science and Engineering</h3>
+              <p class="edu-school">Jhulelal Institute of Technology</p>
+            </div>
+            <p class="role-dates">2021 – 2025</p>
+          </div>
+          <ul class="edu-achievements">
+            <li>1st Runner-Up, JSW Science Conclave</li>
+            <li>Technical Co-Incharge, Encypherist</li>
+            <li>Webmaster, ACM Student Chapter</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact" id="speaking">
+      <div class="container section-grid">
+        <h2 class="section-label">Community &amp; speaking</h2>
+        <div class="section-body">
+          <p class="speaking-role">Technical Speaker — JIT ACM Student Chapter</p>
+          <dl class="talks">
+            <div class="talk">
+              <dt>Linux 101</dt>
+              <dd>Delivered a session on Linux fundamentals and command-line usage.</dd>
+            </div>
+            <div class="talk">
+              <dt>Docker Masterclass</dt>
+              <dd>Delivered a session covering Docker, Linux basics, containerization, and their use in backend and DevOps workflows.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <h2 class="section-label">About</h2>
+        <div class="section-body about">
+          <p>I'm a backend and platform engineer working on a SaaS product for UK accounting workflows. I maintain the integrations with four accounting providers, the pipeline that publishes real client documents to them asynchronously, and the AWS infrastructure the whole thing runs on.</p>
+          <p>Most of my work sits where application code meets infrastructure: rate-limited third-party APIs, long-running background workflows, database and cache deployments, deployment pipelines and the incidents that come out of all of that. I prefer owning a problem end to end, from the domain model to the instance it runs on.</p>
+          <p>Outside work I build systems that scratch the same itch: Forge, on how organizations own and share context, and Nexus, on making operational debugging less fragmented.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="contact-heading">Let's build something useful.</h2>
+        <ul class="contact-links" aria-label="Contact">
+          <li><a data-link="email" href="#">Email</a></li>
+          <li><a data-link="linkedin" href="#" rel="me noopener">LinkedIn</a></li>
+          <li><a data-link="github" href="#" rel="me noopener">GitHub</a></li>
+          <li><a data-link="resume" href="resume.pdf" download="Suraj_Hemnani_Resume.pdf">Resume</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Suraj Hemnani · Nagpur, Maharashtra</p>
+      <p class="footer-note">Built without frameworks. Plain HTML, CSS and a small amount of JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/site.config.js"></script>
+  <script src="js/dots.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
